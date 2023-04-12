@@ -27,7 +27,7 @@ const UserReducer = createSlice({
                 return user.id !== id
             })
 
-            state.ucont -= 1;
+             state.ucont -= 1;
         },
         updateUser: (state, action) => {
             let userInfo = action.payload;
